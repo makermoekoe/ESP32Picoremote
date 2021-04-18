@@ -32,7 +32,9 @@ All these mistakes are fixed in version 1.1. Additionally I have added a USB act
 
 Check out the code in the 'code' section. It is used in PlatformIO, but can be shifted to Arduino IDE easily. The code is exactly the same.
 
-The ST7735 display can be used easily with the [TFT_eSPI library](https://github.com/Bodmer/TFT_eSPI) from Bodmer. This library comes with a `User_Setup.h` to setup the dedicated display you are using. I have attached this file for this specific board in the code section of this repo.
+The ST7735 display can be used easily with the [TFT_eSPI library](https://github.com/Bodmer/TFT_eSPI) by Bodmer. This library comes with a `User_Setup.h` to setup the dedicated display you are using. I have attached this file for this specific board in the code section of this repo.
+
+Another nice library to play little GIFs on that tiny display is the [AnimatedGIF library](https://github.com/bitbank2/AnimatedGIF) by Larry Bank. He shared a nice tool for converting GIFs to a code array.
 
 When you have questions then feel free to ask.
 
