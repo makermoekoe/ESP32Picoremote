@@ -34,7 +34,11 @@ Check out the code in the 'code' section. It is used in PlatformIO, but can be s
 
 The ST7735 display can be used easily with the [TFT_eSPI library](https://github.com/Bodmer/TFT_eSPI) by Bodmer. This library comes with a `User_Setup.h` to setup the dedicated display you are using. I have attached this file for this specific board in the code section of this repo.
 
-Another nice library to play little GIFs on that tiny display is the [AnimatedGIF library](https://github.com/bitbank2/AnimatedGIF) by Larry Bank. He shared a nice tool for converting GIFs to a code array.
+Another nice library to play little GIFs on that tiny display is the [AnimatedGIF library](https://github.com/bitbank2/AnimatedGIF) by Larry Bank. He shared a nice tool for converting GIFs to a code array as well.
+
+## Milled case
+
+It is not yet optimized but the bottom part is looking great. The top part should move left and right while pushing the buttons, unfortunately it doesn't due to the small holes in PCB and bottom part. An easy solution would be to use two elongated holes in the top part (the screw heads would be visible on the top part).
 
 When you have questions then feel free to ask.
 
