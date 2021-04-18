@@ -1,4 +1,4 @@
-# ESP8285_OLED_REMOTE
+# ESP32PicoD4_TFT_Remote
 
 <img src="docs/picoremote.JPG" width="450px"></a>
 
