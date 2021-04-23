@@ -4,6 +4,8 @@
 
 WiFi remote based on ESP32 Pico D4 MCU and a beautiful 160x80 pixels mini TFT display. Additionally there is a I2C temperature & humidity sensor as well as an accelerometer on board.
 
+Assembling video is on my [Youtube](https://youtu.be/5vRy--YCx7k).
+
 The power latching circuit ensures that the ESP32 Pico D4 don't need to be in deep sleep mode while in OFF state. This puts it down to around 3µA during 'sleep', due to the battery protection. It can be woke up only by the middle button. The battery protection occupies reverse voltage protection through the mosfet. Overdischarge voltage of the XB5353A is 2.4volts, which is only for safety reasons. The battery voltage should always be checked with the voltage divider, which gives you an estimation of the battery state.
 
 Main components are:
